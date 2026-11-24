@@ -14,7 +14,7 @@ const entradaSchema = new mongoose.Schema({
 });
 
 const Evento = mongoose.model('eventos', eventoSchema);
-const Entradas = mongoose.model('entradas', entradaSchema);
+const Entrada = mongoose.model('entradas', entradaSchema);
 
 module.exports = Evento;
-module.exports = Entradas;
+module.exports = Entrada;
